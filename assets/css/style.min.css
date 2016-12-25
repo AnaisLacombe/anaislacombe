@@ -1,0 +1,201 @@
+/**
+ * ---------------------------------------
+ *	site global
+ * - - - - - - - - - - - - - - - - - - - -
+ */
+html {
+  height: 100%;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased; }
+  html * {
+    box-sizing: border-box; }
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+iframe {
+  max-width: 100%;
+  height: auto; }
+
+header h1 {
+  height: 110px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  line-height: 160px;
+  color: #25408f; }
+  header h1 a {
+    text-decoration: none !important;
+    color: inherit !important; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+nav li {
+  text-align: center;
+  font-size: 14px; }
+
+nav a {
+  color: #ADAFB2;
+  font-size: 1.2em;
+  line-height: 1.8; }
+  nav a:hover {
+    text-decoration: none;
+    color: #666; }
+
+main {
+  margin-top: 50px;
+  padding-bottom: 100px; }
+  .loading main {
+    display: none; }
+  main .thumbnails {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 758px;
+    list-style-type: none; }
+    main .thumbnails:before {
+      content: '';
+      display: table;
+      clear: both; }
+    main .thumbnails:after {
+      content: '';
+      display: table;
+      clear: both; }
+    @media only screen and (max-width: 768px) {
+      main .thumbnails {
+        margin: 0 16px; } }
+    main .thumbnails li {
+      width: 25%;
+      float: left;
+      overflow: hidden;
+      position: relative;
+      padding: 22px; }
+      @media only screen and (max-width: 768px) {
+        main .thumbnails li {
+          width: 33.333%;
+          padding: 16px; }
+          main .thumbnails li img {
+            width: 100%; } }
+      @media only screen and (max-width: 480px) {
+        main .thumbnails li {
+          width: 50%; } }
+      main .thumbnails li a {
+        display: block;
+        position: relative; }
+      main .thumbnails li img + img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s; }
+        main .thumbnails li img + img:hover {
+          opacity: 1; }
+  main section .container {
+    max-width: 715px; }
+    main section .container:before {
+      content: '';
+      display: table;
+      clear: both; }
+    main section .container:after {
+      content: '';
+      display: table;
+      clear: both; }
+  main section .infos {
+    margin-bottom: 40px; }
+    main section .infos h2 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600; }
+    main section .infos p {
+      margin: 0;
+      margin-top: 1em; }
+    main section .infos .description {
+      margin: 0;
+      margin-top: 0.5em;
+      font-size: 0.9em; }
+  main section .image {
+    margin-bottom: 80px; }
+  main section .accueil {
+    text-align: center;
+    margin-bottom: 80px; }
+  main section .accueil img {
+    width: 60px; }
+
+
+  @media only screen and (max-width: 768px) {
+    main section .infos, main section .image {
+      padding: 0 12px; } }
+  main section.two-col .container {
+    max-width: 739px; }
+  main section.two-col .infos {
+    padding: 0 12px; }
+  main section.two-col .image {
+    float: left;
+    width: 50%;
+    padding: 0 12px; }
+  @media only screen and (max-width: 768px) {
+    main section.two-col .image {
+      float: none;
+      width: 100%; } }
+
+
+  @media only screen and (max-width: 768px) {
+    main section .infos, main section .image {
+      padding: 0 12px; } }
+    main section.three-col .container {
+      max-width: 739px; }
+    main section.three-col .infos {
+      padding: 0 12px; }
+    main section.three-col .image {
+      float: left;
+      width: 33.33%;
+      padding: 0 12px; }
+      @media only screen and (max-width: 980px) {
+        main section.three-col .image {
+          width: 50%; } }
+      @media only screen and (max-width: 768px) {
+        main section.three-col .image {
+          float: none;
+          width: 100%; } }
+
+    @media only screen and (max-width: 768px) {
+      main section .infos, main section .image {
+        padding: 0 12px; } }
+      main section.four-col .container {
+        max-width: 739px; }
+      main section.three-col .infos {
+        padding: 0 12px; }
+      main section.four-col .image {
+        float: left;
+        width: 25%;
+        padding: 0 12px; }
+        @media only screen and (max-width: 980px) {
+          main section.four-col .image {
+            width: 33.33%; } }
+        @media only screen and (max-width: 768px) {
+          main section.four-col .image {
+            width: 50%; } }
+        @media only screen and (max-width: 648px) {
+          main section.four-col .image {
+            float: none;
+            width: 100%; } }
+
+
+a {color: DarkTurquoise}
+a:hover {color: DarkOrange;
+       text-decoration: none}
+//a:visited {color: green}
