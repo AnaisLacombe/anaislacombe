@@ -145,11 +145,12 @@ main {
     text-align: center; }
 
     main section .droits {
-      margin-bottom: 40px; }
-      main section .droits {
-        margin: 0;
-        font-size: 10px;
-        font-weight: 600; }
+      max-width: 715px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      margin: 40px;
+      font-size: 10px;
+      font-weight: 600; }
 
 
   @media only screen and (max-width: 768px) {
