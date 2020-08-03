@@ -1,0 +1,47 @@
+<section class="two-col">
+	<div class="container">
+
+
+		<div class="infos">
+			<h2>Encore des algues - 2020</h2>
+			<p class="description">
+				Livre unique<br>
+    		Bic et crayon sur papier Wenzhou teinté à la main (13x17,5 cm fermé)
+			</p>
+
+		</div>
+
+		<div class="image">
+			<img src="pictures/ENCORE_DES_ALGUES/1.jpg">
+		</div>
+
+		<div class="image">
+			<img src="pictures/ENCORE_DES_ALGUES/2.jpg">
+		</div>
+
+		</section>
+
+		<section class="one-col">
+			<div class="container">
+
+		<div class="image">
+			<img src="pictures/ENCORE_DES_ALGUES/3.jpg">
+		</div>
+
+		<div class="image">
+			<img src="pictures/ENCORE_DES_ALGUES/4.jpg">
+		</div>
+    
+    </div>
+
+	<div class="accueil">
+			<a href="./">
+				<img src="pictures/ACCUEIL/ACCUEIL_BICHRO.jpg">
+			</a>
+	</div>
+
+	<div class="container">
+	<div class="droits">© Tous droits réservés / All rights reserved - Anaïs Lacombe </div>
+	</div>
+
+</section>
