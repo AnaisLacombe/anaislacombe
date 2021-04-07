@@ -1,0 +1,47 @@
+<section class="one-col">
+	<div class="container">
+
+		<div class="infos">
+			<h2>RÊVES MARINS - 2020</h2>
+			<p class="description">
+				Gravure eau forte et point sèche <br>
+        10 exemplaires (plaque 20x15 cm, impression 30x40 cm)
+	</p>
+
+		<div class="image">
+			<img src="pictures/REVES_MARINS/1.jpg">
+		</div>
+    
+    <div class="image">
+			<img src="pictures/REVES_MARINS/2.jpg">
+		</div>
+    
+    <div class="image">
+			<img src="pictures/REVES_MARINS/3.jpg">
+		</div>
+    
+    <div class="image">
+			<img src="pictures/REVES_MARINS/4.jpg">
+		</div>
+    
+    <div class="image">
+			<img src="pictures/REVES_MARINS/5.jpg">
+		</div>
+    
+    <div class="image">
+			<img src="pictures/REVES_MARINS/6.jpg">
+		</div>
+
+	</div>
+
+	<div class="accueil">
+			<a href="./">
+				<img src="pictures/ACCUEIL/ACCUEIL_BICHRO.jpg">
+			</a>
+	</div>
+
+	<div class="container">
+	<div class="droits">© Tous droits réservés / All rights reserved - Anaïs Lacombe </div>
+	</div>
+
+</section>
